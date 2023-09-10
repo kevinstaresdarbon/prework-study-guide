@@ -93,7 +93,29 @@
       <section class="card" id="javascript-section">
         <h2>JS</h2>
         <ul>
-          <li>  Javascript Notes go here</li>
+          <li> A variable is a named container that allows us to store data in our code.</li>
+          <li> Control flow is the order in which a computer executes code in a script.</li>
+          <li> JavaScript is weakly typed.  This is can cause problems when operating on variables if we are not careful of the type conversions that can implicitly occur</li>
+          <li> For example, '42' + 1 = '421'  whereas 42 + 1 = 43, the difference bewteen string concatenation and numerical addition.</li>
+          <li> We can use conditional statements and functions to adapt the control flow to our needs</li>
+          <li> If blocks, for loops, while loops and switch statements are all examples of flow control </li>
+          <li> Often, where a function requires another function as a parameter, such as a callback function, we can usually define this as an anonymous or arrow funtion</li>
+          <li> Arrow functions are defined like this: '() => { code to execute for this arrow function goes here }'</li>
+          <li> A value is falsy if it is one of the following values: 0, -0, 0n, '', null, undefined or NaN or a boolean with value false.  All other values, including a boolean with the value of true are condsidered truthy </li>
+          <li> An if(expression){code to run} only executes the code if the expression evalutes to a truthy value</li>
+          <li> If we are careless with our flow control we can make certain conditions logically unreachable. Beyond being pointless this can often be a cause of a bug or an error check may fail</li>
+          <li> When using javaScript in our html code we usually link it in with a script tag at the bottom of the body block so that all the variables and elements are well defined before we try to access them with our code </li>
+          <li> a === b tests the logical equality and type equality of a and b. a !== b tests to see wether they are different or 'not equal'</li>
+          <li> Its good practice to get in the habit of early testing to help stop bugs from becoming harder to spot and ensure that the logic in your code is running smoothly {which it won't always do} along the coding journey</li>
+          <li> Simple tests like running the code in the live server and watching your changes as you make them along with using console.log() to track the expected values of your variables as needed can be a good idea</li>
+          <li> Array indexes always begin at 0 for the first element </li>
+          <li> Arrays can contain values of many different types in each index position, e.g.  details['Bob', 54, spawnObject(payrollNr)], they don't have to be arrays of all the same data type.</li>
+          <li> ++ and -- are shorthand for increment by 1 and decrement by 1.  i.e. 'let x=3; y= x++;' then y=4.</li>
+          <li> A well defined function will not run until it is called within the code</li>
+          <li> You can pass arguments to funtions within the parenthesis.  like so --~> myFunc(arg1, arg2), or in an arrow function --~> (...args) => {code using args goes here} </li>
+          <li> You can use JavaScript directly within the dev console to see the effects of changing variables etc live on the page without having th change them within your codebase</li>
+          <li> A line comment is denoted by // and a block comment starts with /*   and ignores everything till closed with a */  </li>
+          <li> Its important to add inline and block comments to help you and other developers understand what your code is intended to do when hunting for bugs or learning how to implement/use your code</li>
         </ul>
       </section>
 
